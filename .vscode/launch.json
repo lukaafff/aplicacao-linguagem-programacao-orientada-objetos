@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MapaNotas",
+            "request": "launch",
+            "mainClass": "Aulas.Exercicios.MapaNotas",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DialogSimples",
+            "request": "launch",
+            "mainClass": "Aulas.AWT.Dialog.DialogSimples",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "FrameSimples",
+            "request": "launch",
+            "mainClass": "Aulas.AWT.Frame.FrameSimples",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "PanelSimples",
+            "request": "launch",
+            "mainClass": "Aulas.AWT.Panel.PanelSimples",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraIMC",
+            "request": "launch",
+            "mainClass": "Aulas.Exercicios.CalculadoraIMC",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "FrameSimples(1)",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.Frame.FrameSimples",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "Border",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.LayoutManagers.Border",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "Box",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.LayoutManagers.Box",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "Flow",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.LayoutManagers.Flow",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "Grid",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.LayoutManagers.Grid",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "Spring",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.LayoutManagers.Spring",
+            "projectName": "teste_a69ea4d5"
+        },
+        {
+            "type": "java",
+            "name": "PanelSimples(1)",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.Panel.PanelSimples",
+            "projectName": "teste_a69ea4d5"
+        }
+    ]
+}
