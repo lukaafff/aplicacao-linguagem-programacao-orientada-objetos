@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JTableExemple",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.LayoutManagers.JTable.JTableExemple",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
+            "name": "MapaNotas",
+            "request": "launch",
+            "mainClass": "Aulas.Exercicios.MapaNotas",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
             "name": "MapaNotas",
             "request": "launch",
             "mainClass": "Aulas.Exercicios.MapaNotas",

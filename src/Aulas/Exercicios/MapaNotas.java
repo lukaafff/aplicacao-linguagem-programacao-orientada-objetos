@@ -1,6 +1,5 @@
 package Aulas.Exercicios;
 
-import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.*;
@@ -18,7 +17,9 @@ public class MapaNotas {
         return (p1 + p2) / 2;
     }
 
+    //construtor da classe
     public MapaNotas() {
+        //instanciando componentes
         frame = new JFrame();
         btAdd = new JButton("Adicionar nota");
         tf1 = new JTextField();
@@ -27,12 +28,14 @@ public class MapaNotas {
         tf4 = new JTextField();
         tf5 = new JTextField();
         
+        //criação da tavela
         DefaultTableModel dtm = new DefaultTableModel() {
             @Override
             public Class<?> getColumnClass(int columnIndex) {
                 return getValueAt(0, columnIndex).getClass();
             }
         };
+        //colunas da tabela
         JTable jt = new JTable(dtm);
         dtm.addColumn("RA");
         dtm.addColumn("Nome");
@@ -40,20 +43,19 @@ public class MapaNotas {
         dtm.addColumn("P2");
         dtm.addColumn("Média");
         
+        //renderização das celulas e colunas+
         DefaultTableCellRenderer renderer = new DefaultTableCellRenderer() {
-            @Override
-            public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
-                Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
-                double media = (Double) value;
-                if (media >= 7) {
-                    c.setForeground(Color.GREEN);
-                } else {
-                    c.setForeground(Color.RED);
-                }
-                return c;
-            }
-        };
-        
+        @Override
+        public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+            Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
+            double media = (Double) value;
+            
+            c.setForeground(media >= 7 ? Color.GREEN : Color.RED);
+            
+            return c;
+    }
+};
+
         jt.getColumnModel().getColumn(4).setCellRenderer(renderer);
         
         JPanel inputPanel = new JPanel(new GridLayout(5, 2, 10, 10));
