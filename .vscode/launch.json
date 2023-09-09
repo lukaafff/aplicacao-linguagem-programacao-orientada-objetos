@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JOptionPaneExample3",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.JOptionPane.JOptionPaneExample3",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
+            "name": "JOptionPaneExample2",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.JOptionPane.JOptionPaneExample2",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
+            "name": "JOptionPaneExample",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.JOptionPane.JOptionPaneExample",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
             "name": "JTableExemple",
             "request": "launch",
             "mainClass": "Aulas.Swing.LayoutManagers.JTable.JTableExemple",

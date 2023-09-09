@@ -1,4 +1,4 @@
-package Aulas.Swing.LayoutManagers.JTable;
+package Aulas.Swing.JTable;
 
 import javax.swing.*;
 
