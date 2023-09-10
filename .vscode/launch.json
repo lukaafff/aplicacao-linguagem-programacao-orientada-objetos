@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CardLayoutExample",
+            "request": "launch",
+            "mainClass": "Aulas.Exercicios.CardLayoutExample",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
+            "name": "Aplicacao",
+            "request": "launch",
+            "mainClass": "Aulas.Exercicios.Aplicacao",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
+            "name": "PanelSimples",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.Panel.PanelSimples",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
             "name": "MenuExample2",
             "request": "launch",
             "mainClass": "Aulas.Swing.Eventos.MenuExample2",
