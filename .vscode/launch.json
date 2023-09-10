@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculaIMC",
+            "request": "launch",
+            "mainClass": "Aulas.Swing.Eventos.CalculaIMC",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
             "name": "JOptionPaneExample3",
             "request": "launch",
             "mainClass": "Aulas.Swing.JOptionPane.JOptionPaneExample3",
