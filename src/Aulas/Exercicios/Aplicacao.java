@@ -158,7 +158,9 @@ public class Aplicacao {
 
         sairItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.exit(0);
+                cardLayout.show(cardPanel, "login");
+                entrarButton.setVisible(false);
+                sairButton.setVisible(true);
             }
         });
 
@@ -215,7 +217,7 @@ public class Aplicacao {
     // Método para adicionar um novo contato
     private void adicionarContato() {
         String nome = JOptionPane.showInputDialog(frame, "Digite o nome do contato:");
-        //se o nome nao é nulo e apos a remoção dos espaços em barncos (trim) e o nome nao continua vazio (empty)
+        //se o nome nao é nulo e apos a remoção dos espaços em brancos (trim) e o nome nao continua vazio (empty)
         if (nome != null && !nome.trim().isEmpty()) {
             String email = JOptionPane.showInputDialog(frame, "Digite o email do contato:");
             if (email != null && !email.trim().isEmpty()) {
