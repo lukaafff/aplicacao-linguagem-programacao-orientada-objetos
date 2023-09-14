@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AplicaçãoSingleton",
+            "request": "launch",
+            "mainClass": "Aulas.Exercicios.AplicaçãoSingleton",
+            "projectName": "aplicacao-linguagem-programacao-orientada-objetos_d2f69b8a"
+        },
+        {
+            "type": "java",
             "name": "CardLayoutExample",
             "request": "launch",
             "mainClass": "Aulas.Exercicios.CardLayoutExample",
